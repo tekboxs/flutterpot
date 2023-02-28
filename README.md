@@ -1,16 +1,11 @@
 # flutterpot
+<img src="https://github.com/tekboxs/flutterpot/blob/master/assets/icons/flutterport-icon.png" alt="" width="100" height="100" style="max-width: 100%;">
 
-A new Flutter project.
+Flutter + Jackpot
+Application that uses the Getx package, with dependency injection and API calls, in the example the following api was used:
+https://github.com/guto-alves/loterias-api
 
-## Getting Started
+It has the ability to show all the results of the available options and when there will be a new game                                             
+<img src="https://github.com/tekboxs/flutterpot/blob/master/assets/preview1.jpg" width="300" height="700" alt="" style="max-width: 100%;">
+<img src="https://github.com/tekboxs/flutterpot/blob/master/assets/preview2.jpg" width="300" height="700" alt="" style="max-width: 100%;">
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
