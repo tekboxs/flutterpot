@@ -1,0 +1,41 @@
+name: flutterpot
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.4 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  flutter_svg: ^1.1.6
+  uno: ^1.0.1+5
+  dio: ^5.0.1
+  flutter_launcher_icons: ^0.12.0
+
+flutter_icons:
+  #  image_path: "assets/images/icon-128x128.png"
+  image_path_android:  "assets/icons/flutterport-icon.png"
+  image_path_ios:  "assets/icons/flutterport-icon.png"
+  android: true # can specify file name here e.g. "ic_launcher"
+  ios: true # can specify file name here e.g. "My-Launcher-Icon"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  remove_alpha_ios: true 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  bloc_test: 9.0.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
